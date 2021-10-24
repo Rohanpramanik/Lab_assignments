@@ -1,19 +1,22 @@
 package com.lab_1;
 
-import java.util.Scanner;
+import java.util.Scanner; // improt the scanner class property
 
-public class SumOfCubes {
+public class SumOfCubes 
+{
 	static int temp = 0;
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+	// main method and also write the logic here
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);   //read the user input
 		System.out.println("enter the digit");
-		int n = sc.nextInt();
+		int n = sc.nextInt();    //store the input in n
 
-		for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= n; i++) // used to iterate the certain code  
+		{
 			temp = temp + (i * i * i);
 		}
-		System.out.println(temp);
+		System.out.println(temp);  // print the result
 	}
 	
 }
