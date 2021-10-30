@@ -1,6 +1,6 @@
 package com.lab_1;
 
-import java.util.Scanner; // improt the scanner class property
+import java.util.Scanner; // import the scanner class property
 
 public class SumOfCubes 
 {
@@ -18,6 +18,5 @@ public class SumOfCubes
 		}
 		System.out.println(temp);  // print the result
 	}
-	
 }
 

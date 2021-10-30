@@ -2,7 +2,8 @@ package com.lab_1;
 
 import java.util.Scanner;
 
-//Using Recursive
+
+//Using Recursivenj
 // method where we write the logic 
 public class Fibonacci 
 {
@@ -27,4 +28,7 @@ public class Fibonacci
 		printFibonacci(n-2); //calling the method
 	}
 }
+
+
+
 
